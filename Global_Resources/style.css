@@ -1,7 +1,7 @@
 body
 {
     font-family: Arial;
-    background-color: #ffd589;
+    background-color: #3f0073;
 }
 
 hr
@@ -9,9 +9,30 @@ hr
     visibility: hidden;
 }
 
+
+h1{
+    color: #ff7fbc;
+    font-size: 2.5vw;
+}
+
+h2{
+    color: white;
+    font-size: 2vw;
+}
+
+a{
+    font-size: 1vw;
+}
+
 p
 {
-    font-size: 1.03vw;
+    font-size: 0.95vw;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
 }
 
 .titleimg
@@ -21,10 +42,9 @@ p
     margin-right: auto;
 }
 
-.subtitle
+.title
 {
     text-align: center;
-    color: black;
 }
 
 .menubar ul
@@ -38,18 +58,18 @@ p
     float: left;
     width: 10vw;
     height: 2vw;
-    background-color: #5181ff;
+    background-color: #bf00b6;
     line-height: 2vw;
     text-align: center;
-    font-size: 1.03vw;
     text-decoration: none;
+    font-weight: bold;
     color: white;
     display: inline;
 }
 
 .menubar ul a:hover
 {
-    background-color: #8800ff;
+    background-color: #990091;
 }
 
 .dropdown
@@ -60,11 +80,15 @@ p
     float: left;
     width: 10vw;
     height: 2vw;
-    background-color: #8800ff;
+    background-color: #bf00b6;
     line-height: 2vw;
     text-align: center;
-    font-size: 1.03vw;
     display: inline;
+}
+
+.dropdownContent 
+{
+    display: none;
 }
 
 .dropdown:hover .dropdownContent 
@@ -74,20 +98,10 @@ p
     z-index: 10;
 }
 
-.dropdownContent 
-{
-    display: none;
-    background-color: #5181ff;
-}
-
-.dropdownContent a:hover
-{
-    background-color: #8800ff;
-}
-
 .dropdownContent a
 {
     text-decoration: none;
+    font-weight: bold;
     color: white;
     display: block;
 }
@@ -98,6 +112,7 @@ p
     display: table;
     width: 10vw;
     margin-left: 2.5%;
+    margin-top: 2vw;
     line-height: 2vw;
     display: inline;
     position: relative;
@@ -105,61 +120,55 @@ p
 
 .menubar-side ul a
 {
-    background-color: #5181ff;
+    background-color: #bf00b6;
     text-align: center;
-    font-size: 1.03vw;
     text-decoration: none;
+    font-weight: bold;
     color: white;
     height: 2vw;
     position: relative;
     display: block;
+    border-radius: 1vw;
 }
 
 .menubar-side ul a:hover
 {
-    background-color: #8800ff;
+    background-color: #990091;
 }
 
-.global-page-subtitle
+.main-page-subtitle
 {
-    color: white;
-    opacity: 1;
     text-align: center;
     width: fit-content;
     position: relative;
-    border-radius: 5px;
-    background-color: #9e84ff;
+    border-radius: 1vw;
+    background-color: #c57fff;
     margin-left: 1.5vw;
 }
 
-.global-page-subtitle p
+.main-page-subtitle p
 {
-    color: white;
-    opacity: 1;
     position: relative;
-    text-align: center, justify; 
-    padding: 5px;
+    text-align: center;
 }
 
 .global-page-bg
 {
     float: right;
-    margin-top: 4vw;
+    margin-top: 2vw;
     margin-right: 14.875%;
     width: 68.25%;
-    background-color: #84a6ff;
-    opacity: 0.9;
+    background-color: #b061f2;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 1vw;
     position: relative;
 }
 
 .main-page-greet
 {
     float: right;
-    border-radius: 20px;
-    background-color: #84a6ff;
-    opacity: 1 !important;
+    border-radius: 1vw;
+    background-color: #b061f2;
     margin-top: 2vw;
     margin-right: 14.875%;
     width: 68.25%;
@@ -167,21 +176,16 @@ p
 
 .main-page-greet p
 {
-    color: white;
-    opacity: 1;
     position: relative;
-    text-align: center, justify; 
-    padding: 5px;
+    text-align: center; 
 }
 
 .main-page-title
 {
-    border-radius: 20px;
-    background-color: #ff9646;
-    color: white;
-    opacity: 1 !important;
+    border-radius: 1vw;
+    background-color: #b772f1;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1px;
@@ -192,23 +196,20 @@ p
 
 .main-page-content
 {
-    opacity: 1;
     padding-top: 3px;
     padding-bottom: 3px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 2;
-    background-color: #9e84ff;
-    border-radius: 5px;
+    background-color: #b772f1;
+    border-radius: 1vw;
     text-align: center;
     width: 55vw;
 }
 
 .main-page-content p
 {
-    color: white;
-    opacity: 1;
     position: relative;
-    text-align: center, justify;
+    text-align: center;
 }

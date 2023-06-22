@@ -1,0 +1,31 @@
+.background{
+    color: #3f0073;
+}
+
+.foreground_1{
+    color: #b061f2;
+}
+
+.foreground_2{
+    color: #b772f1;
+}
+
+.foreground_3{
+    color: #c57fff;
+}
+
+.button{
+    color: #bf00b6;
+}
+
+.button:hover{
+    color: #990091;
+}
+
+.text_1{
+    color: white;
+}
+
+.heading_1{
+    color: #ff7fbc;
+}
