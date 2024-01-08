@@ -49,6 +49,11 @@ p
     text-align: center;
 }
 
+.subtitle
+{
+    text-align: center;
+}
+
 .menubar ul
 {
     display: table;
@@ -58,7 +63,7 @@ p
 .menubar ul a
 {
     float: left;
-    width: 10vw;
+    width: 9vw;
     height: 2vw;
     background-color: #bf00b6;
     line-height: 2vw;
